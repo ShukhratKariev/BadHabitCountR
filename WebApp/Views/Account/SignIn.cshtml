@@ -1,0 +1,16 @@
+﻿@model LoginUserViewModel
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "_Layout";
+}
+
+<h2>title</h2>
+<form>
+    <label asp-for="UserName">User name</label>
+    <input asp-for="UserName"/>
+    <label asp-for="Password">Password</label>
+    <input asp-for="Password"/>
+    <label asp-for="Email">Email</label>
+    <input asp-for="Email"/>
+</form>
